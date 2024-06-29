@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="mysite.chat.views.social_core" />
+          <option value="mysite.chat.views.social_django" />
+          <option value="rest_framework.tokens" />
+          <option value="mysite.mysite.urls.rest_framework_simplejwt" />
+          <option value="mysite.chat.views.rest_framework_simplejwt" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
