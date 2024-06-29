@@ -71,18 +71,6 @@ class StudentDetailMixins(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
 
-# class CourseListViewSets(generics.ListAPIView):
-#     queryset = Course.objects.all()
-#     serializer_class = CourseSerializers
-#     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
-#
-#
-# class CourseDetailMixins(generics.RetrieveUpdateDestroyAPIView):
-#     queryset = Course.objects.all()
-#     serializer_class = CourseSerializers
-#     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
-
-
 class RegisterView(generics.CreateAPIView):
     serializer_class = RegisterSerializer
 
